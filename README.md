@@ -6,5 +6,7 @@ mempool-checker allows you to compare mempools of different RPC nodes (public/pr
 
 ```bash
 pip install -r requirements.txt
-python3 main.py --rpcs https://evmos-rpc.polkachu.com --rpcs https://evmos-rpc.stakely.io
+python3 main.py --rpcs https://evmos-rpc.polkachu.com --rpcs https://evmos-rpc.stakely.io --rpcs <your rpc>
 ```
+
+(these RPCs are just an example, you can pick and choose whichever RPC nodes you want to)
